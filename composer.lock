@@ -4,8 +4,63 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "180804b7c2bc4f1dd9087529de39dbcc",
+    "content-hash": "0c88ecf275f70d39621276c98bee864a",
     "packages": [
+        {
+            "name": "ctl/laravelxmpp",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Core-Tech-Labs/LaravelXMPP.git",
+                "reference": "230596c08ff9c578f9ff61e53c378b4ae50da6b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Core-Tech-Labs/LaravelXMPP/zipball/230596c08ff9c578f9ff61e53c378b4ae50da6b3",
+                "reference": "230596c08ff9c578f9ff61e53c378b4ae50da6b3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.16",
+                "tyrola/xmpphp": "^2.0"
+            },
+            "require-dev": {
+                "graham-campbell/testbench": "^3.0",
+                "illuminate/support": "^5.2",
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CTL\\XMPPMessageBase\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "EPL-1.0"
+            ],
+            "authors": [
+                {
+                    "name": "Core Tech Labs",
+                    "email": "info@ctlabs.net",
+                    "homepage": "http://ctlabs.net",
+                    "role": "Owner"
+                },
+                {
+                    "name": "Rudy Jessop",
+                    "email": "rudyjessop@gmail.com",
+                    "homepage": "http://rudyjessop.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easy to use XMPP package for laravel",
+            "time": "2016-11-06T21:52:00+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -2309,6 +2364,53 @@
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "time": "2017-11-27T11:13:29+00:00"
+        },
+        {
+            "name": "tyrola/xmpphp",
+            "version": "v2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BirknerAlex/XMPPHP.git",
+                "reference": "f2ad157c4f3f1230d771c81ca7545eaf03dae049"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BirknerAlex/XMPPHP/zipball/f2ad157c4f3f1230d771c81ca7545eaf03dae049",
+                "reference": "f2ad157c4f3f1230d771c81ca7545eaf03dae049",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "BirknerAlex\\XMPPHP": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "BirknerAlex",
+                    "email": "alex.birkner@gmail.com"
+                }
+            ],
+            "description": "Jabber Library For Sending Jabber Messages",
+            "homepage": "https://github.com/BirknerAlex/XMPPHP",
+            "keywords": [
+                "jabber",
+                "xmpp",
+                "xmpphp"
+            ],
+            "time": "2018-10-04T15:27:17+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
