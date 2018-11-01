@@ -150,7 +150,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        CTL\XMPPMessageBase\IMServiceProvider::class,
         /*
          * Application Service Providers...
          */
